@@ -29,7 +29,7 @@
     <h2>🔧 Configuração</h2>
     <ol>
       <li>Clone o repositório:</li>
-      <pre><code>git clone https://github.com/KauaMGS/app-pessoas.git<br>cd app-pessoas</code></pre>
+      <pre><code>git clone https://github.com/KauaMGS/app-pessoas.git</code></pre>
       <li>Instale as dependências:</li>
       <pre><code>npm install</code></pre>
       <li>Inicie o servidor JSON Server para simular a API:</li>
