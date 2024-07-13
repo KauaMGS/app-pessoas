@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <body>
 
-  <h1>📋 Angular People Management App</h1>
+  <h1>📋 Gerenciamento de pessoas com Angular</h1>
   <p>Este projeto consiste em uma aplicação Angular para gerenciar um sistema de cadastro de Pessoas, permitindo operações CRUD (Criar, Ler, Atualizar, Deletar). A simulação de API é realizada usando JSON Server com um arquivo <code>db.json</code> para armazenamento dos dados.</p>
 
   <div class="section">
@@ -29,7 +29,7 @@
     <h2>🔧 Configuração</h2>
     <ol>
       <li>Clone o repositório:</li>
-      <pre><code>git clone https://github.com/seu-usuario/angular-people-management.git<br>cd angular-people-management</code></pre>
+      <pre><code>git clone https://github.com/KauaMGS/app-pessoas.git<br>cd app-pessoas</code></pre>
       <li>Instale as dependências:</li>
       <pre><code>npm install</code></pre>
       <li>Inicie o servidor JSON Server para simular a API:</li>
