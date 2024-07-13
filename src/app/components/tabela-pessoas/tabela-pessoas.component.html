@@ -1,0 +1,34 @@
+<div class="container">
+    <table class="table table-hover table-borda-arredondada text-center mt-4">
+        <thead class="table-dark">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Perfil</th>
+            <th scope="col">Email</th>
+            <th scope="col">Ativo</th>
+            <th scope="col">País</th>
+            <th scope="col">Experiência</th>
+            <th scope="col">Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let pessoa of pessoas">
+            <th scope="row">{{ pessoa.id }}</th>
+            <td>{{ pessoa.name }}</td>
+            <td>{{ pessoa.age }}</td>
+            <td>{{ pessoa.role }}</td>
+            <td>{{ pessoa.email }}</td>
+            <td>{{ pessoa.isActive }}</td>
+            <td>{{ pessoa.country }}</td>
+            <td>{{ pessoa.experience }}</td>
+            <td>
+                <a class="btn btn-primary me-2" routerLink="/pessoa/editar/{{ pessoa.id }}">Editar</a>
+                <a class="btn btn-danger" (click)="delete(pessoa.id)">Excluir</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <a class="btn btn-primary float-end" routerLink="/pessoa/criar">Novo</a>
+</div>

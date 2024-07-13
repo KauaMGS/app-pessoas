@@ -1,0 +1,74 @@
+{
+  "profiles": [
+    {
+      "id": "uq2e",
+      "name": "Alice",
+      "role": "admin",
+      "age": 32,
+      "email": "alice@alice.com",
+      "isActive": true,
+      "country": "Brasil",
+      "experience": "Sênior"
+    },
+    {
+      "id": "kf8y",
+      "name": "Bruno",
+      "role": "user",
+      "age": 28,
+      "email": "bruno@bruno.com",
+      "isActive": true,
+      "country": "Argentina",
+      "experience": "Pleno"
+    },
+    {
+      "id": "zw4p",
+      "name": "Carlos",
+      "role": "user",
+      "age": 24,
+      "email": "carlos@carlos.com",
+      "isActive": false,
+      "country": "Portugal",
+      "experience": "Junior"
+    },
+    {
+      "name": "Daniela",
+      "age": 35,
+      "role": "user",
+      "email": "daniela@daniela.com",
+      "isActive": true,
+      "country": "Espanha",
+      "experience": "Sênior",
+      "id": "xj7m"
+    },
+    {
+      "name": "Eduardo",
+      "age": 30,
+      "role": "user",
+      "email": "eduardo@eduardo.com",
+      "isActive": true,
+      "country": "Brasil",
+      "experience": "Pleno",
+      "id": "bn2a"
+    },
+    {
+      "name": "Helena",
+      "age": 20,
+      "role": "user",
+      "email": "helena@helena.com",
+      "isActive": true,
+      "country": "Uruguai",
+      "experience": "Pleno",
+      "id": "hk9u"
+    },
+    {
+      "name": "Fernanda",
+      "age": 29,
+      "role": "user",
+      "email": "fernanda@fernanda.com",
+      "isActive": false,
+      "country": "Brasil",
+      "experience": "Sênior",
+      "id": "4608"
+    }
+  ]
+}
