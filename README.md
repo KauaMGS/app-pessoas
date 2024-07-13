@@ -1,28 +1,62 @@
-# AppPessoas
+<!DOCTYPE html>
+<html lang="pt-BR">
+<body>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+  <h1>📋 Angular People Management App</h1>
+  <p>Este projeto consiste em uma aplicação Angular para gerenciar um sistema de cadastro de Pessoas, permitindo operações CRUD (Criar, Ler, Atualizar, Deletar). A simulação de API é realizada usando JSON Server com um arquivo <code>db.json</code> para armazenamento dos dados.</p>
 
-## Development server
+  <div class="section">
+    <h2>🚀 Requisitos</h2>
+    <ul>
+      <li>Node.js (versão recomendada)</li>
+      <li>Angular CLI</li>
+      <li>JSON Server</li>
+    </ul>
+  </div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  <div class="section">
+    <h2>⚙️ Dependências</h2>
+    <ul>
+      <li>@angular/core</li>
+      <li>@angular/common</li>
+      <li>@angular/forms</li>
+      <li>@angular/router</li>
+      <li>json-server</li>
+    </ul>
+  </div>
 
-## Code scaffolding
+  <div class="section">
+    <h2>🔧 Configuração</h2>
+    <ol>
+      <li>Clone o repositório:</li>
+      <pre><code>git clone https://github.com/seu-usuario/angular-people-management.git<br>cd angular-people-management</code></pre>
+      <li>Instale as dependências:</li>
+      <pre><code>npm install</code></pre>
+      <li>Inicie o servidor JSON Server para simular a API:</li>
+      <pre><code>npm run server</code></pre>
+      <p>Isso iniciará o JSON Server e usará o arquivo <code>db.json</code> como o banco de dados simulado.</p>
+    </ol>
+  </div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  <div class="section">
+    <h2>🚀 Como Executar</h2>
+    <ol>
+      <li>Build e inicie a aplicação Angular:</li>
+      <pre><code>ng serve</code></pre>
+      <li>Acesse a aplicação no navegador:</li>
+      <p>Acesse a aplicação na URL <a href="http://localhost:4200/home">http://localhost:4200/home</a></p>
+    </ol>
+  </div>
 
-## Build
+  <div class="section">
+    <h2>📄 Documentação</h2>
+    <p>Para documentação adicional sobre os endpoints da API simulada, consulte o arquivo <code>db.json</code> ou acesse <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+  </div>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  <div class="section">
+    <h2>📝 Licença</h2>
+    <p>Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE.md para mais detalhes.</p>
+  </div>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# app-pessoas
+</body>
+</html>
